@@ -17,3 +17,29 @@ body {
     background-color: rgb(19, 17, 17);
     color: rgb(236, 222, 222);
 }
+
+.container {
+    border: 1px green solid;
+    height: 100vh;
+    width: 50vw;
+}
+
+.new-file,
+.save,
+.options {
+    height: 20px;
+    width: 50vw;
+    border: none;
+}
+
+.new-file:hover {
+    background-color: greenyellow;
+    transition: 0.7s ease;
+}
+
+.btn {
+    height: 20px;
+    width: 50vw;
+    /* position: absolute;
+    bottom: 0; */
+}
